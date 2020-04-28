@@ -1,0 +1,219 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+ 
+body {
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between; 
+    min-height: 95vh; 
+}
+
+/* PINK SECTION */
+
+.pink-section {
+    background-color: #ff378a;
+    color: #ffffff;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+.pink-section .my-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 25px auto;    
+}
+
+.pink-section h3 {
+    color: #ffffff;
+    margin: 0 0 20px 0;
+}
+
+.pink-section h4 {
+    margin: 0;
+    font-style: italic;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6)
+
+}
+
+.pink-section .social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+    /* CONTACT SECTION */
+
+    .contact-section {
+        margin-bottom: 70px;    
+    }
+
+    .contact-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;    
+    }
+
+    .contact-list li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px
+    }
+
+    .contact-list li:last-child {
+        margin-bottom: 0;
+    }
+
+    .not-padding-list {
+        padding: 0 0 0 18px;
+        margin: 20px 0 30px 0;  
+    }
+
+/* MAIN SECTION */
+.main-section {
+    
+}
+
+    .main-title {
+        
+    }
+
+    .job-expectations-section {
+        background-color: #f3d7e9;
+        border-radius: 10px;
+        border: 1px solid #ff378a;
+        padding-left: 10px;
+    }
+
+    .job-expectations-section h3 span {
+        font-weight: 500;
+    }
+
+    .education-list li, 
+    .additional-info-list li,
+    .personal-info-list li {
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    .education-list span, 
+    .additional-info-list span,
+    .personal-info-list span {
+        font-weight: 500;
+    }
+    
+.footer {
+    height: 5vh;
+    padding: 15px 10px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #ff378a;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 700px) {
+
+    a {
+        font-size: 14px;
+    }
+
+
+    main {
+        flex-direction: column;  
+    }
+
+    /* PINK SECTION */
+
+    .pink-section {
+        padding: 10px;
+        margin-right: 0;
+        height: initial;
+    }
+
+    .pink-section .my-photo {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 15px auto;    
+    }
+
+    .pink-section h3 {
+        margin: 0 0 15px 0;
+        font-size: 16px;
+    }
+
+    .pink-section h4 {
+        font-size: 15px;
+    }
+
+    .pink-section .social-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+        /* CONTACT SECTION */
+
+        .contact-section {
+            margin-bottom: 30px;    
+        }
+
+        .not-padding-list {
+            margin: 15px 0;  
+        }
+
+        .not-padding-list li {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+    /* MAIN SECTION */
+    .main-section {
+        padding: 10px;
+    }
+
+    .main-section h2 {
+        font-size: 16px;
+    }
+
+    .main-title {
+        font-size: 18px;
+        margin-top: 5px ;
+    }
+
+    .job-expectations-section h3 {
+        font-size: 14px;
+    }   
+
+    .education-list li, 
+    .additional-info-list li,
+    .personal-info-list li {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+}
